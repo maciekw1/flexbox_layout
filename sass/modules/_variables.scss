@@ -1,0 +1,20 @@
+// COLORS
+$aqua: #63EFFF;
+$gray: #464855;
+$light: lighten($gray, 40%);
+$megalight: lighten($light, 25%);
+$violet: #31187F;
+
+
+// FONTS
+
+$main_font: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+$regular: normal;
+$semibold: 600;
+
+// BREAKPOINTS
+
+$phone: 576px;
+$tablet: 768px;
+$desktop: 992px;
+$desktop-hd: 1200px;

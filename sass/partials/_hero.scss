@@ -1,0 +1,40 @@
+.hero {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.hero__main {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    >* {
+        margin-bottom: 2rem;
+    }
+    @media (min-width: $tablet){
+    	display: block;
+    }
+}
+
+.hero__side {
+	display: none;
+	flex: 1;
+	@media (min-width: $tablet) {
+		display: block;
+	}
+}
+
+.hero__title {
+	text-align: center;
+	@media (min-width: $tablet) {
+		text-align: left;
+	}
+    color: $violet;
+    font-size: 2.5rem;
+    font-weight: $semibold;
+    line-height: 1;
+}
+
+.hero__text {
+	max-width: 90%;
+}

@@ -1,0 +1,36 @@
+.review-section {
+    padding: 100px 0;
+    background-image: url('../images/review_background.jpg');
+    background-position: center 2%;
+    background-size: cover;
+}
+
+.review {
+    background-color: rgba(49, 24, 127, 0.7);
+    @media (min-width: $tablet){
+    	border-radius: 1rem;
+    }
+    color: #fff;
+    max-width: 25rem;
+    padding: 2rem 2rem;
+}
+
+.review__row {
+	display: flex;
+	align-items: center;
+}
+
+.review__text {
+    margin-bottom: 1rem;
+}
+
+.review__name {
+    font-size: 1rem;
+}
+
+.review__avatar {
+	border-radius: 40192px;
+	display: block;
+	margin-right: 1rem;
+}
+
